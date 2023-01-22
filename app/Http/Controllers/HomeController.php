@@ -31,6 +31,6 @@ class HomeController extends Controller
             return redirect()->to('user');
         } else {
             return redirect()->to('logout');
-        }
+        }        
     }
 }
